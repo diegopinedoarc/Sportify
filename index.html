@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Sportify</title>
+</head>
+<body>
+  <div class="wrapper">
+      <header class="header">
+        <nav>
+            <input type="checkbox" name="menu-toogle" id="menu-toogle" class="menu-toogle">
+            <label for="menu-toogle" class="menu_Hamburguesa">
+                <div class="rayas"></div>
+                <div class="rayas"></div>
+                <div class="rayas"></div>
+            </label>
+            <div class="box_Menu">
+                <ul class="ul_Menu">
+                    <li class="li_Menu"><a href="./index.html"><i class="fa-solid fa-house"></i>   Inicio</a></li>
+                    <li class="li_Menu"><a href="#servicios">   Planes</a></li>
+                    <li class="li_Menu"><a href="./login/login.html">Ingresa</a></li>
+                    <li class="li_Menu"><a href="">Registrate</a></li> 
+                    <li class="li_Menu"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+          </nav>
+          <a class="linklogo" href="#"><img class="logo" src="./imagenes/logo.png" alt=""></a>
+      </header>
+      <main class="main">
+          <section class="hero">
+              <div class="hero__texto">
+                <h1 class="hero__h1">Sportify</h1>
+                <p class="hero__p"> te brinda una planificación completa para potenciarte en todos los aspectos.</p>
+                <h2 class="hero__titulo"> <span class="resaltar1">¡Revolucionamos </span>  tus entrenamientos!</h2>
+                <button class="hero_BTN"><a class="btnhero__link" href="">¡Empeza ahora!</a></button>
+              </div>
+              <img class="hero__img" src="./imagenes/imgHero.jpg" alt="">
+          </section>
+          <section class="servicios" id="servicios">
+              <div class="gimnasios">
+                  <p>Planes para gimnasios</p>
+                  <button class="btn__info1"><a class="linkinfo" href="#popup1"><i class="fa-solid fa-circle-plus"></i> Info</a></button>
+              </div>
+              <div class="individuos">
+                  <p>Planes individuales</p>
+                  <button class="btn__info2"><a class="linkinfo" href="#popup2"><i class="fa-solid fa-circle-plus"></i> Info</a></button>
+              </div>
+          </section>
+          <section class="contacto" id="contacto">
+              <h2>Contactanos</h2>
+              <input id="namecontact" type="text" placeholder="Nombre completo">
+              <input id="emailcontact" type="email" name="email" id="email" placeholder="Correo electrónico">
+              <input id="msjcontact" type="text" placeholder="Mensaje">
+              <input type="submit" value="Enviar" class="btnenviar">
+
+          </section>
+          <div class="popups">
+            <div id="popup1" class="overlay1">
+                <div id="popupBody1">
+                    <a id="cerrar1" href="#servicios">&times;</a>
+                    <img class="imgpop" src="./imagenes/popupgim.jpg" alt="">
+                <div class="boxpopup2">
+                    <h2>Gimnasios</h2>
+                    <h3>Plan anual $100000</h3>
+                    <p>Planes diseñados para los 7 dias de la semana durante los 365 dias del año. Con acceso a la web para todos tus atletas.</p>
+                </div>
+
+                </div>
+            </div>
+            <div id="popup2" class="overlay2">
+                <div id="popupBody2">
+                    <a id="cerrar2" href="#servicios">&times;</a>
+                    <img class="imgpop2" src="./imagenes/popupindividual.jpg" alt="">
+                <div class="boxpopup2">
+                    <h2>Individuales</h2>
+                    <h3>Plan mensual $1000</h3>
+                    <p>Plan personalizado segun tus aptitudes fisicas, con seguimiento de nuestros entrenadores.</p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <h2>Sportify 2022 - Realizado por Diego Pinedo</h2>
+        <div class="redes">
+            <a href="https://www.instagram.com/diegopinedo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/diegopinedoarc"><i class="fa-brands fa-github"></i></a>              
+        </div>
+      </footer>
+  </div>  
+</body>
+</html>
