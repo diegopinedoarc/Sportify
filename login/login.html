@@ -5,18 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sportify - Log In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Sportify - Log in</title>
 </head>
 <body>
-    <div class="card-container">
-        <article class="card">
-            <img class="card__image" src="../imagenes/1244809.jpg" alt="">
-            <img class="card__image" src="../imagenes/1244942.jpg" alt="">
-        </article>
-    </div>
-    <button class="hero_BTN"><a class="btnhero__link" href="">¡Empeza ahora!</a></button>
+  <div class="wrapper">
+      <header class="header">
+        <nav>
+            <input type="checkbox" name="menu-toogle" id="menu-toogle" class="menu-toogle">
+            <label for="menu-toogle" class="menu_Hamburguesa">
+                <div class="rayas"></div>
+                <div class="rayas"></div>
+                <div class="rayas"></div>
+            </label>
+            <div class="box_Menu">
+                <ul class="ul_Menu">
+                    <li class="li_Menu"><a href="../index.html"><i class="fa-solid fa-house"></i>   Inicio</a></li>
+                    <li class="li_Menu"><a href="#servicios">   Planes</a></li>
+                    <li class="li_Menu"><a href="./login/login.html">Ingresa</a></li>
+                    <li class="li_Menu"><a href="">Registrate</a></li> 
+                    <li class="li_Menu"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+          </nav>
+          <a class="linklogo" href="#"><img class="logo" src="../imagenes/logo.png" alt=""></a>
+      </header>
+      <main class="main">
+        <div class="login">
+          <div class="titus">
+           <h1>Sportify</h1>
+           <h2>Ingresa a tu cuenta</h2>
+          </div>
+           <div class="datos">
+             <input type="email" name="" id="mail" placeholder="Correo electrónico">
+             <input type="password" name="" id="pass" placeholder="Contraseña">
+             <button class="login__btn"><a href="../index.html">Ingresa</a></button>
+             <div class="rec">
+             <input type="checkbox" name="" id="check"> <label class="check" for="">Recordar contraseña</label>
+            </div>
+            <h3>¿No tenes cuenta? <a href="">¡Registrate!</a></h3>
+           </div>
+           <div class="otrosAcc">
+             <button class="acc__btn">Ingresa con <i class="fa-brands fa-google"></i></button>
+             <button class="acc__btn">Ingresa con <i class="fa-brands fa-facebook"></i></button>
+           </div>
 
-
-
+          </div>
+      </main>
+      <footer class="footer">
+        <h2>Sportify 2022 - Realizado por Diego Pinedo</h2>
+        <div class="redes">
+            <a href="https://www.instagram.com/diegopinedo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/diegopinedoarc"><i class="fa-brands fa-github"></i></a>              
+        </div>
+      </footer>
+  </div>  
 </body>
 </html>
