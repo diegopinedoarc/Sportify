@@ -128,9 +128,9 @@
         gap: 1.5rem;
         background: url(../imagenes/weightlifting-2427475_1920.jpg)no-repeat center center;
         background-size: cover;
-        width: 95%;
-        border-radius: 2rem;
-        margin-top: 2rem;
+        width: 96%;
+        border-radius: 1rem;
+        margin-top: 1rem;
         animation-name: latido;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -140,14 +140,23 @@
     .datos {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
         justify-content: center;
-        margin-right: 2rem;
+        align-items: center;
+        gap: 1rem;
+        margin-top: -7rem;
+        margin-right: 4rem;
+        
+        
+        
     }
     .otrosAcc {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
     }
    
     h1 {
@@ -169,11 +178,76 @@
         width: 100%;
     }
     .rec {
-        background: var(--grisclaro);
+        color: var(--negro);
+        font-size: 1.4rem;
         border-radius: 0.5rem;
         display: flex;
         justify-content: center;
+        width: 20rem;
         gap: 1rem;
+        margin-right: 2rem;
+    }
+    .regis {
+        text-decoration: none;
+        color: var(--naranja);
+    }
+    .email {
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .email:focus {
+        border: solid 3px var(--amarillo);
+    }
+    .password {
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .password:focus {
+        border: solid 3px var(--amarillo);
+    }
+  
+    .login__btn {
+        width: 20rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+    }
+    .login__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+
+    .acc__btn {
+        width: 20rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        
+    }
+    .acc__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+    .linkbtns {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--negro);
     }
 
 
@@ -185,7 +259,16 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        height: 3rem;
 
+    }
+    .titufoot {
+        color: var(--negro);
+        font-size: 1rem;
+    }
+    .redes a {
+        color: var(--naranaja);
+        font-size: 2rem;
     }
      /* ---------------------------------- */
     
@@ -264,6 +347,153 @@
         border-radius: 1rem;
         
     }
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background: url(../imagenes/weightlifting-2427475_1920.jpg)no-repeat center center;
+        background-size: cover;
+        width: 96%;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
+        
+    }
+    .datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+     
+        
+        
+        
+    }
+    .otrosAcc {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 2rem;
+    }
+   
+    h1 {
+        font-size: 3rem;
+        color: var(--naranja);
+        
+        
+    }
+    h2 {
+        font-size: 2rem;
+        color: var(--grisclaro);
+       
+        
+    }
+    .titus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .rec {
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        gap: 1rem;
+        
+    }
+    .regis {
+        text-decoration: none;
+        color: var(--naranja);
+    }
+    .email {
+        width: 18rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .email:focus {
+        border: solid 3px var(--amarillo);
+    }
+    .password {
+        width: 18rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .password:focus {
+        border: solid 3px var(--amarillo);
+    }
+  
+    .login__btn {
+        width: 18rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+    }
+    .login__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+
+    .acc__btn {
+        width: 18rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        
+    }
+    .acc__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+    .linkbtns {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--negro);
+    }
+
+      /* --------------footer-------------------- */
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 3rem;
+
+    }
+    .titufoot {
+        color: var(--negro);
+        font-size: 1rem;
+    }
+    .redes a {
+        color: var(--naranaja);
+        font-size: 2rem;
+    }
+     /* ---------------------------------- */
     
 }
 
@@ -410,15 +640,153 @@
         border-radius: 1rem;
         
     }
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background: url(../imagenes/weightlifting-2427475_1920.jpg)no-repeat center center;
+        background-size: cover;
+        width: 96%;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
+        
+    }
+    .datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+     
+        
+        
+        
+    }
+    .otrosAcc {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 2rem;
+    }
+   
+    h1 {
+        font-size: 3rem;
+        color: var(--naranja);
+        
+        
+    }
+    h2 {
+        font-size: 2rem;
+        color: var(--grisclaro);
+       
+        
+    }
+    .titus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .rec {
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        gap: 1rem;
+        
+    }
+    .regis {
+        text-decoration: none;
+        color: var(--naranja);
+    }
+    .email {
+        width: 18rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .email:focus {
+        border: solid 3px var(--amarillo);
+    }
+    .password {
+        width: 18rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .password:focus {
+        border: solid 3px var(--amarillo);
+    }
+  
+    .login__btn {
+        width: 18rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+    }
+    .login__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+
+    .acc__btn {
+        width: 18rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        
+    }
+    .acc__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+    .linkbtns {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--negro);
+    }
+
     
 
       /* --------------footer-------------------- */
-    .footer {
+      .footer {
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        height: 3rem;
 
+    }
+    .titufoot {
+        color: var(--negro);
+        font-size: 1rem;
+    }
+    .redes a {
+        color: var(--naranaja);
+        font-size: 2rem;
     }
      /* ---------------------------------- */
 
@@ -568,15 +936,155 @@
         background: rgb(245, 245, 245);
         margin-top: -4rem;
         border-radius: 1rem;
+        gap: 2rem;
+    }
+ 
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background: url(../imagenes/weightlifting-2427475_1920.jpg)no-repeat center center;
+        background-size: cover;
+        width: 96%;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
         
     }
+    .datos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+     
+        
+        
+        
+    }
+    .otrosAcc {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 2rem;
+    }
+   
+    h1 {
+        font-size: 3rem;
+        color: var(--naranja);
+        
+        
+    }
+    h2 {
+        font-size: 2rem;
+        color: var(--grisclaro);
+       
+        
+    }
+    .titus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .rec {
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        gap: 1rem;
+        
+    }
+    .regis {
+        text-decoration: none;
+        color: var(--naranja);
+    }
+    .email {
+        width: 18rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .email:focus {
+        border: solid 3px var(--amarillo);
+    }
+    .password {
+        width: 18rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .password:focus {
+        border: solid 3px var(--amarillo);
+    }
+  
+    .login__btn {
+        width: 18rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+    }
+    .login__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+
+    .acc__btn {
+        width: 18rem;
+        height: 3rem;
+        background: var(--naranja);
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        
+    }
+    .acc__btn:hover {
+        background: var(--grisclaro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);   
+    }
+    .linkbtns {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--negro);
+    }
+
+
       /* --------------footer-------------------- */
       .footer {
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        margin-top: 0.5rem;
 
+    }
+    .titufoot {
+        color: var(--negro);
+        font-size: 1rem;
+    }
+    .redes a {
+        color: var(--naranaja);
+        font-size: 1rem;
     }
      /* ---------------------------------- */
 

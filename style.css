@@ -248,7 +248,7 @@
     .gimnasios {
         background: url(./imagenes/tarjeta1.png)no-repeat center center;
         background-size: cover;
-        width: 32rem;
+        width: 30rem;
         height: 16rem;
         border-radius: 1rem;
         animation-name: latido2;
@@ -266,14 +266,14 @@
     .gimnasios p {
         text-align: left;
         position: relative;
-        left: -1rem;
+        left: 0rem;
         font-size: 2rem;
         font-family: var(--font2);
     }
     .individuos {
         background: url(./imagenes/tarjeta3.png)no-repeat center center;
         background-size: cover;
-        width: 32rem;
+        width: 30rem;
         height: 16rem;
         border-radius: 1rem;
         animation-name: latido2;
@@ -293,13 +293,13 @@
         font-family: var(--font2);
     }
     .btn__info1 {
-        width: 18rem;
+        width: 16rem;
         height: 3.5rem;
         border-radius: 0.8rem;
         border: none;
         background: var(--negro);
         position: relative;
-        left: 0rem;
+        left: -1rem;
     }
     .btn__info1:hover {
         background: var(--naranja);
@@ -308,7 +308,7 @@
         background: var(--naranja);
     }
     .btn__info2 {
-        width: 18rem;
+        width: 16rem;
         height: 3.5rem;
         border-radius: 0.8rem;
         border: none;
@@ -420,15 +420,18 @@
         transition: all 200ms;
     }
     .imgpop {
-        width: 22rem;
+        width: 20rem;
         padding: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
         
         
     }
     .imgpop2 {
-        width: 24rem;
+        width: 20rem;
         padding: 1rem;
-        border-radius: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
     }
     .boxpopup2 {
         width: 50%;
@@ -482,16 +485,24 @@
         margin-bottom: 2rem;
     }
 
-      /* --------------footer-------------------- */
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
+   /* --------------footer-------------------- */
+   .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 3rem;
 
-    }
-     /* ---------------------------------- */
-    
+}
+.titufoot {
+    color: var(--negro);
+    font-size: 1rem;
+}
+.redes a {
+    color: var(--naranaja);
+    font-size: 2rem;
+}
+ /* ---------------------------------- */
 
 }
 @media (min-width:815px) and (max-width:1100px) {
@@ -779,7 +790,7 @@
      /* ---------------------------------- */
       /* -------------Popups--------------------- */
     
-    .overlay1 { 
+      .overlay1 { 
         position: fixed;
         top: 0;
         bottom: 0;
@@ -798,19 +809,21 @@
     }
     #popupBody1 {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: white;
-        width: 60%;
+        background: var(--negro);
+        width: 95%;
         position: relative;
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 26rem;
+        height: 60vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
         transition: all ease 0.3s;
+        color: var(--grisclaro);
     }
     .overlay2 { 
         position: fixed;
@@ -831,19 +844,21 @@
     }
     #popupBody2 {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        background: white;
-        width: 60%;
+        justify-content: center;
+        background: var(--negro);
+        width: 95%;
         position: relative;
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 26rem;
+        height: 60vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
         transition: all ease 0.3s;
+        color: var(--grisclaro);
     }
     #cerrar1 {
         position: absolute;
@@ -852,7 +867,7 @@
         font-size: 30px;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: var(--grisclaro);
         transition: all 200ms;
     }
     #cerrar2 {
@@ -862,34 +877,41 @@
         font-size: 30px;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: var(--grisclaro);
         transition: all 200ms;
     }
     .imgpop {
-        width: 22rem;
+        width: 20rem;
         padding: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
+        
         
         
     }
     .imgpop2 {
         width: 24rem;
         padding: 1rem;
-        border-radius: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
+        
     }
     .boxpopup2 {
-        width: 50%;
+        width: 90%;
         
     }
     .boxpopup2 h2 {
         font-family: var(--font2);
         color: var(--naranja);
-        font-size: 3rem;
+        font-size: 2rem;
+        text-align: center;
     }
     .boxpopup2 h3 {
-        font-size: 2rem;
+        font-size: 1.4rem;
+        text-align: center;
     }
     .boxpopup2 p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .contacto {
         width: 100%;
@@ -928,15 +950,24 @@
         margin-bottom: 2rem;
     }
 
-      /* --------------footer-------------------- */
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
+  /* --------------footer-------------------- */
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 3rem;
 
-    }
-     /* ---------------------------------- */
+}
+.titufoot {
+    color: var(--negro);
+    font-size: 1rem;
+}
+.redes a {
+    color: var(--naranaja);
+    font-size: 2rem;
+}
+ /* ---------------------------------- */
 }
 
 @media (min-width:600px) and (max-width:815px) {
@@ -1294,7 +1325,7 @@
      /* ---------------------------------- */
       /* -------------Popups--------------------- */
     
-    .overlay1 { 
+      .overlay1 { 
         position: fixed;
         top: 0;
         bottom: 0;
@@ -1313,19 +1344,21 @@
     }
     #popupBody1 {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: white;
-        width: 60%;
+        background: var(--negro);
+        width: 95%;
         position: relative;
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 26rem;
+        height: 60vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
         transition: all ease 0.3s;
+        color: var(--grisclaro);
     }
     .overlay2 { 
         position: fixed;
@@ -1346,19 +1379,21 @@
     }
     #popupBody2 {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        background: white;
-        width: 60%;
+        justify-content: center;
+        background: var(--negro);
+        width: 95%;
         position: relative;
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 26rem;
+        height: 60vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
         transition: all ease 0.3s;
+        color: var(--grisclaro);
     }
     #cerrar1 {
         position: absolute;
@@ -1367,7 +1402,7 @@
         font-size: 30px;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: var(--grisclaro);
         transition: all 200ms;
     }
     #cerrar2 {
@@ -1377,34 +1412,41 @@
         font-size: 30px;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: var(--grisclaro);
         transition: all 200ms;
     }
     .imgpop {
-        width: 22rem;
+        width: 20rem;
         padding: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
+        
         
         
     }
     .imgpop2 {
         width: 24rem;
         padding: 1rem;
-        border-radius: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
+        
     }
     .boxpopup2 {
-        width: 50%;
+        width: 90%;
         
     }
     .boxpopup2 h2 {
         font-family: var(--font2);
         color: var(--naranja);
-        font-size: 3rem;
+        font-size: 2rem;
+        text-align: center;
     }
     .boxpopup2 h3 {
-        font-size: 2rem;
+        font-size: 1.4rem;
+        text-align: center;
     }
     .boxpopup2 p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .contacto {
         width: 100%;
@@ -1444,15 +1486,23 @@
     }
 
       /* --------------footer-------------------- */
-    .footer {
+      .footer {
         display: flex;
         align-items: center;
         justify-content: space-around;
         width: 100%;
+        height: 3rem;
 
     }
+    .titufoot {
+        color: var(--negro);
+        font-size: 1rem;
+    }
+    .redes a {
+        color: var(--naranaja);
+        font-size: 2rem;
+    }
      /* ---------------------------------- */
-
 }
 
 @media (max-width:600px) {
@@ -1907,12 +1957,16 @@
     .imgpop {
         width: 14rem;
         padding: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
         
         
     }
     .imgpop2 {
         width: 18rem;
         padding: 1rem;
+        border: solid var(--naranja) 1px;
+        border-radius: 10rem;
         
     }
     .boxpopup2 {
@@ -1968,5 +2022,23 @@
         font-family: var(--font2);
         margin-bottom: 2rem;
     }
+   /* --------------footer-------------------- */
+   .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 3rem;
+
+}
+.titufoot {
+    color: var(--negro);
+    font-size: 1rem;
+}
+.redes a {
+    color: var(--naranaja);
+    font-size: 2rem;
+}
+ /* ---------------------------------- */
 }
 
