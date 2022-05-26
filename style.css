@@ -422,12 +422,12 @@
         align-items: center;
         justify-content: center;
         background: var(--negro);
-        width: 60%;
+        width: 70%;
         position: relative;
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 26rem;
+        height: 30rem;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -456,12 +456,12 @@
         align-items: center;
         justify-content: space-around;
         background: var(--negro);
-        width: 60%;
+        width: 70%;
         position: relative;
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 26rem;
+        height: 30rem;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -544,13 +544,15 @@
     .hero_BTN2::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN2::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN2:hover {
         background: var(--negro);
@@ -701,7 +703,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     .card-container {
         perspective: 800px;
@@ -777,6 +779,7 @@
         position: relative;
         cursor: pointer;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
     .hero_BTN::before, .hero_BTN::after {
         content: '';
@@ -789,13 +792,15 @@
     .hero_BTN::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN:hover {
         background: var(--negro);
@@ -819,8 +824,9 @@
         margin: 10px auto;
         max-width: 600px;
         position: relative;
-        padding-top: 400px;
+        padding-top: 300px;
         border-radius: 0.5rem;
+        margin-bottom: 2rem;
     }
     .gallery__img {
         position: absolute;
@@ -874,7 +880,7 @@
         justify-content: center;
         gap: 2rem;
         height: 30rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
 
     }
     .gimnasios {
@@ -997,7 +1003,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 60vh;
+        height: 70vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -1032,7 +1038,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 60vh;
+        height: 70vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -1156,13 +1162,14 @@
     .hero_BTN2::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
-        
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
     }
     .hero_BTN2::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN2:hover {
         background: var(--negro);
@@ -1393,7 +1400,7 @@
         width: 80%;
         text-align: center;
         margin-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .resaltar1 {
         color: var(--naranja);
@@ -1407,7 +1414,7 @@
         width: 80%;
     }
     .hero_BTN {
-        width: 18rem;
+        width: 14rem;
         height: 3.5rem;
         border-radius: 0.8rem;
         border: 1px solid var(--negro);
@@ -1431,13 +1438,15 @@
     .hero_BTN::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN:hover {
         background: var(--negro);
@@ -1549,12 +1558,13 @@
     }
      /* ---------------------------------- */
      .gallery {
-        display: none;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 10px auto;
         max-width: 600px;
         position: relative;
-        padding-top: 400px;
+        padding-top: 250px;
         border-radius: 0.5rem;
     }
     .gallery__img {
@@ -1570,6 +1580,7 @@
         animation-iteration-count: infinite;
         animation-duration: 2s;
         transition: all ease 0.3s;
+        width: 25rem;
     }
     .gallery__thumb {
         padding-top: 5px;
@@ -1596,6 +1607,7 @@
     .gallery__thumb > img {
         border-radius: 0.5rem;
         cursor: pointer;
+        width: 6rem;
     }
       /* -------------Popups--------------------- */
     
@@ -1627,7 +1639,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 60vh;
+        height: 70vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -1662,7 +1674,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 60vh;
+        height: 70vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -1786,13 +1798,15 @@
     .hero_BTN2::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN2::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN2:hover {
         background: var(--negro);
@@ -2063,13 +2077,15 @@
     .hero_BTN::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN:hover {
         background: var(--negro);
@@ -2087,8 +2103,57 @@
     }
      /* ---------------------------------- */
      .gallery {
-        display: none;
-         }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        max-width: 600px;
+        position: relative;
+        padding-top: 200px;
+        border-radius: 0.5rem;
+    }
+    .gallery__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        max-width: 100%;
+        vertical-align: top;
+        border-radius: 0.5rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
+        width: 20rem;
+    }
+    .gallery__thumb {
+        padding-top: 5px;
+        margin: 5px;
+        display: block;
+        border-radius: 0.5rem;
+       
+    }
+    .gallery__selector {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 0.5rem;
+
+    }
+    .gallery__selector:checked + .gallery__img {
+        opacity: 1;
+        border-radius: 0.5rem;
+    }
+    .gallery__selector:checked ~ .gallery__thumb > img {
+        box-shadow: 0 0 0 3px #ff3b3b;
+        border-radius: 0.5rem;
+    }
+    .gallery__thumb > img {
+        border-radius: 0.5rem;
+        cursor: pointer;
+        width: 4rem;
+    }
        /* --------------servicios-------------------- */
     .servicios {
         display: flex;
@@ -2215,7 +2280,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 60vh;
+        height: 70vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -2337,13 +2402,15 @@
     .hero_BTN2::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN2::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN2:hover {
         background: var(--negro);
