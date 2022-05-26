@@ -45,6 +45,14 @@
     90% {box-shadow: 1px 1px 1px 1px var(--naranja);}
     100% {box-shadow: 1px 1px 1px 1px var(--naranja);}
 }
+.gallery {
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
 /* ------Mobile------ */
 @media (min-width:1024px) {
     .wrapper {
@@ -238,6 +246,54 @@
         color: var(--grisclaro);
     }
      /* ---------------------------------- */
+     .gallery {
+        display: flex;
+        margin: 10px auto;
+        max-width: 600px;
+        position: relative;
+        padding-top: 400px;
+        border-radius: 0.5rem;
+    }
+    .gallery__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        max-width: 100%;
+        vertical-align: top;
+        border-radius: 0.5rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
+    }
+    .gallery__thumb {
+        padding-top: 5px;
+        margin: 5px;
+        display: block;
+        border-radius: 0.5rem;
+       
+    }
+    .gallery__selector {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 0.5rem;
+
+    }
+    .gallery__selector:checked + .gallery__img {
+        opacity: 1;
+        border-radius: 0.5rem;
+    }
+    .gallery__selector:checked ~ .gallery__thumb > img {
+        box-shadow: 0 0 0 3px #ff3b3b;
+        border-radius: 0.5rem;
+    }
+    .gallery__thumb > img {
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
       /* --------------servicios-------------------- */
     .servicios {
         display: flex;
@@ -756,6 +812,60 @@
         color: var(--grisclaro);
     }
      /* ---------------------------------- */
+     .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        max-width: 600px;
+        position: relative;
+        padding-top: 400px;
+        border-radius: 0.5rem;
+    }
+    .gallery__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        max-width: 100%;
+        vertical-align: top;
+        border-radius: 0.5rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
+        width: 30rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+    .gallery__thumb {
+        padding-top: 5px;
+        margin: 5px;
+        display: block;
+        border-radius: 0.5rem;
+       
+    }
+    .gallery__selector {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 0.5rem;
+
+    }
+    .gallery__selector:checked + .gallery__img {
+        opacity: 1;
+        border-radius: 0.5rem;
+    }
+    .gallery__selector:checked ~ .gallery__thumb > img {
+        box-shadow: 0 0 0 3px #ff3b3b;
+        border-radius: 0.5rem;
+    }
+    .gallery__thumb > img {
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
       /* --------------servicios-------------------- */
     .servicios {
         display: flex;
@@ -1438,6 +1548,55 @@
         color: white;
     }
      /* ---------------------------------- */
+     .gallery {
+        display: none;
+        
+        margin: 10px auto;
+        max-width: 600px;
+        position: relative;
+        padding-top: 400px;
+        border-radius: 0.5rem;
+    }
+    .gallery__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        max-width: 100%;
+        vertical-align: top;
+        border-radius: 0.5rem;
+        animation-name: latido;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        transition: all ease 0.3s;
+    }
+    .gallery__thumb {
+        padding-top: 5px;
+        margin: 5px;
+        display: block;
+        border-radius: 0.5rem;
+       
+    }
+    .gallery__selector {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 0.5rem;
+
+    }
+    .gallery__selector:checked + .gallery__img {
+        opacity: 1;
+        border-radius: 0.5rem;
+    }
+    .gallery__selector:checked ~ .gallery__thumb > img {
+        box-shadow: 0 0 0 3px #ff3b3b;
+        border-radius: 0.5rem;
+    }
+    .gallery__thumb > img {
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
       /* -------------Popups--------------------- */
     
       .overlay1 { 
@@ -1927,6 +2086,9 @@
         color: var(--grisclaro);
     }
      /* ---------------------------------- */
+     .gallery {
+        display: none;
+         }
        /* --------------servicios-------------------- */
     .servicios {
         display: flex;
