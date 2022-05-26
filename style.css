@@ -204,7 +204,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -236,6 +236,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 3px solid var(--naranja);
+        color: var(--naranaja);
     }
     .hero_BTN:hover::after, .hero_BTN:hover::before {
         width: calc(100% + 27px);
@@ -243,7 +244,7 @@
     }
     .btnhero__link {
         text-decoration: none;
-        color: var(--grisclaro);
+        
     }
      /* ---------------------------------- */
      .gallery {
@@ -774,12 +775,19 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
         margin-top: 1rem;
         margin-bottom: 2rem;
+    }
+    .hero_BTN:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 3px solid var(--naranja);
+        color: var(--naranaja);
     }
     .hero_BTN::before, .hero_BTN::after {
         content: '';
@@ -1421,7 +1429,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -1453,6 +1461,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 3px solid var(--naranja);
+        color: var(--naranaja);
     }
     .hero_BTN:hover::after, .hero_BTN:hover::before {
         width: calc(100% + 27px);
@@ -2060,7 +2069,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -2092,6 +2101,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 3px solid var(--naranja);
+        color: var(--naranaja);
     }
     .hero_BTN:hover::after, .hero_BTN:hover::before {
         width: calc(100% + 27px);
