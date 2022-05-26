@@ -20,18 +20,42 @@
             </label>
             <div class="box_Menu">
                 <ul class="ul_Menu">
-                    <li class="li_Menu"><a href="./index.html"><i class="fa-solid fa-house"></i>   Inicio</a></li>
-                    <li class="li_Menu"><a href="#servicios">   Planes</a></li>
+                    <li class="li_Menu"><a href="../index.html"><i class="fa-solid fa-house"></i>   Inicio</a></li>
+                    <li class="li_Menu"><a href="../index.html#servicios">   Planes</a></li>
                     <li class="li_Menu"><a href="./login/login.html">Ingresa</a></li>
-                    <li class="li_Menu"><a href="">Registrate</a></li> 
-                    <li class="li_Menu"><a href="#contacto">Contacto</a></li>
+                    <li class="li_Menu"><a href="../register/register.html">Registrate</a></li> 
+                    <li class="li_Menu"><a href="../index.html#contacto">Contacto</a></li>
                 </ul>
             </div>
           </nav>
-          <a class="linklogo" href="#"><img class="logo" src="../imagenes/logo.png" alt=""></a>
+          <a class="linklogo" href="../index.html"><img class="logo" src="../imagenes/logo.png" alt=""></a>
       </header>
       <main class="main">
-         
+         <section class="registro">
+             <h1>Sportify</h1>
+             <h2>Completa el formulario de registro</h2>
+             <div class="name">
+                 <input type="text" placeholder="Nombre">
+                 <input type="text" placeholder="Apellido">
+             </div>
+             <div class="ageGender">
+                 <label for="nacimiento">Fecha de nacimiento</label>
+             <input type="date" name="nacimiento" id="nacimiento">
+             <label for="">Objetivo: <select name="objetivo" id="objetivo"><option value="Competir">Competir</option><option value="Bajar">Bajar peso</option><option value="Nobinario">Tonificar</option>
+            <option value="Otro">Otro</option></select></label>
+            </div>
+             <div class="mailPass">
+                 <input type="email" name="mail" id="mail" placeholder="Correo electrónico">
+                 <input type="password" name="pass" id="pass" placeholder="Contraseña">
+             </div>
+             <div class="pago">
+                 <label for="metodo">Metodo de pago: <select name="metodo" id="metodo"><option value="credito">Tarjeta de credito</option> <option value="transferencia">Transferencia</option></select></label>
+             </div>
+             <button class="hero_BTN"><a class="btnhero__link" href="../index.html">Inscribirme</a></button>
+
+           
+         </section>
+     
       </main>
       <footer class="footer">
         <h2>Sportify 2022 - Realizado por Diego Pinedo</h2>

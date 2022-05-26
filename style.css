@@ -213,13 +213,15 @@
     .hero_BTN::before {
         left: -15px;
         top: -15px;
-        border-width: 3px 0 0 3px;
+        border-width: 1.5px 0 0 1.5px;
+        border-radius: 1rem;
         
     }
     .hero_BTN::after {
         right: -15px;
         bottom: -15px;
         border-width: 0 3px 3px 0;
+        border-radius: 1rem;
     }
     .hero_BTN:hover {
         background: var(--negro);
@@ -263,6 +265,13 @@
         justify-content: center;
         
     }
+    .gimnasios:hover {
+        scale: 110%;
+    }
+    .individuos:hover {
+        scale: 110%;
+
+    }
     .gimnasios p {
         text-align: left;
         position: relative;
@@ -284,6 +293,10 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+    }
+    .individuos:hover {
+        scale: 110%;
+
     }
     .individuos p {
         text-align: left;
@@ -435,7 +448,9 @@
     }
     .boxpopup2 {
         width: 50%;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .boxpopup2 h2 {
         font-family: var(--font2);
@@ -447,6 +462,53 @@
     }
     .boxpopup2 p {
         font-size: 1.5rem;
+    }
+    .hero_BTN2 {
+        width: 16rem;
+        height: 3.5rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+        color: var(--naranja);
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    .hero_BTN2::before, .hero_BTN2::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN2::before {
+        left: -15px;
+        top: -15px;
+        border-width: 3px 0 0 3px;
+        
+    }
+    .hero_BTN2::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+    }
+    .hero_BTN2:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 3px solid var(--naranja);
+    }
+    .hero_BTN2:hover::after, .hero_BTN2:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
+    }
+    .btnhero__link {
+        text-decoration: none;
+        color: var(--grisclaro);
     }
     .contacto {
         width: 100%;
@@ -729,6 +791,13 @@
         font-size: 2rem;
         font-family: var(--font2);
     }
+    .gimnasios:hover {
+        scale: 110%;
+    }
+    .individuos:hover {
+        scale: 110%;
+
+    }
     .individuos {
         background: url(./imagenes/tarjeta3.png)no-repeat center center;
         background-size: cover;
@@ -881,7 +950,7 @@
         transition: all 200ms;
     }
     .imgpop {
-        width: 20rem;
+        width: 14rem;
         padding: 1rem;
         border: solid var(--naranja) 1px;
         border-radius: 10rem;
@@ -898,6 +967,9 @@
     }
     .boxpopup2 {
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
     }
     .boxpopup2 h2 {
@@ -948,6 +1020,49 @@
         font-size: 2rem;
         font-family: var(--font2);
         margin-bottom: 2rem;
+    }
+    .hero_BTN2 {
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+        color: var(--naranja);
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    .hero_BTN2::before, .hero_BTN2::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN2::before {
+        left: -15px;
+        top: -15px;
+        border-width: 3px 0 0 3px;
+        
+    }
+    .hero_BTN2::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+    }
+    .hero_BTN2:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 3px solid var(--naranja);
+    }
+    .hero_BTN2:hover::after, .hero_BTN2:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
     }
 
   /* --------------footer-------------------- */
@@ -1416,7 +1531,7 @@
         transition: all 200ms;
     }
     .imgpop {
-        width: 20rem;
+        width: 14rem;
         padding: 1rem;
         border: solid var(--naranja) 1px;
         border-radius: 10rem;
@@ -1433,6 +1548,9 @@
     }
     .boxpopup2 {
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
     }
     .boxpopup2 h2 {
@@ -1483,6 +1601,49 @@
         font-size: 2rem;
         font-family: var(--font2);
         margin-bottom: 2rem;
+    }
+    .hero_BTN2 {
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+        color: var(--naranja);
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    .hero_BTN2::before, .hero_BTN2::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN2::before {
+        left: -15px;
+        top: -15px;
+        border-width: 3px 0 0 3px;
+        
+    }
+    .hero_BTN2::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+    }
+    .hero_BTN2:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 3px solid var(--naranja);
+    }
+    .hero_BTN2:hover::after, .hero_BTN2:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
     }
 
       /* --------------footer-------------------- */
@@ -1955,7 +2116,7 @@
         transition: all 200ms;
     }
     .imgpop {
-        width: 14rem;
+        width: 12rem;
         padding: 1rem;
         border: solid var(--naranja) 1px;
         border-radius: 10rem;
@@ -1963,7 +2124,7 @@
         
     }
     .imgpop2 {
-        width: 18rem;
+        width: 12rem;
         padding: 1rem;
         border: solid var(--naranja) 1px;
         border-radius: 10rem;
@@ -1971,6 +2132,9 @@
     }
     .boxpopup2 {
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
     }
     .boxpopup2 h2 {
@@ -1985,6 +2149,49 @@
     }
     .boxpopup2 p {
         font-size: 1rem;
+    }
+    .hero_BTN2 {
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+        color: var(--naranja);
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+    .hero_BTN2::before, .hero_BTN2::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN2::before {
+        left: -15px;
+        top: -15px;
+        border-width: 3px 0 0 3px;
+        
+    }
+    .hero_BTN2::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+    }
+    .hero_BTN2:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 3px solid var(--naranja);
+    }
+    .hero_BTN2:hover::after, .hero_BTN2:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
     }
     .contacto {
         width: 100%;
