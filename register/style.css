@@ -836,6 +836,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 1.5px solid var(--naranja);
+        color: var(--naranja);
     }
     .hero_BTN:hover::after, .hero_BTN:hover::before {
         width: calc(100% + 27px);
@@ -1170,6 +1171,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 1.5px solid var(--naranja);
+        color: var(--naranja);
     }
     .hero_BTN:hover::after, .hero_BTN:hover::before {
         width: calc(100% + 27px);
