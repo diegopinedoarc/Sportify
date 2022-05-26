@@ -399,6 +399,16 @@
         color: white;
     }
      /* ---------------------------------- */
+     .tituloseparador {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     .tituseparador {
+         font-size: 4rem;
+         font-family: var(--font2);
+         color: var(--naranja);
+     }
       /* -------------Popups--------------------- */
     
     .overlay1 { 
@@ -528,7 +538,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -560,6 +570,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 3px solid var(--naranja);
+        color: var(--naranja);
     }
     .hero_BTN2:hover::after, .hero_BTN2:hover::before {
         width: calc(100% + 27px);
@@ -981,6 +992,16 @@
         color: white;
     }
      /* ---------------------------------- */
+     .tituloseparador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituseparador {
+        font-size: 4rem;
+        font-family: var(--font2);
+        color: var(--naranja);
+    }
       /* -------------Popups--------------------- */
     
       .overlay1 { 
@@ -1011,7 +1032,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 70vh;
+        height: 60vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -1046,7 +1067,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 70vh;
+        height: 60vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -1153,7 +1174,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -1184,6 +1205,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 3px solid var(--naranja);
+        color: var(--naranja);
     }
     .hero_BTN2:hover::after, .hero_BTN2:hover::before {
         width: calc(100% + 27px);
@@ -1472,6 +1494,16 @@
         color: var(--grisclaro);
     }
      /* ---------------------------------- */
+     .tituloseparador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituseparador {
+        font-size: 3rem;
+        font-family: var(--font2);
+        color: var(--naranja);
+    }
       /* --------------servicios-------------------- */
     .servicios {
         display: flex;
@@ -1790,7 +1822,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -1822,6 +1854,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 3px solid var(--naranja);
+        color: var(--naranja);
     }
     .hero_BTN2:hover::after, .hero_BTN2:hover::before {
         width: calc(100% + 27px);
@@ -2260,6 +2293,16 @@
         color: white;
     }
      /* ---------------------------------- */
+     .tituloseparador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituseparador {
+        font-size: 2rem;
+        font-family: var(--font2);
+        color: var(--naranja);
+    }
       /* -------------Popups--------------------- */
     
     .overlay1 { 
@@ -2290,7 +2333,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 70vh;
+        height: 55vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -2325,7 +2368,7 @@
         margin: 8% auto;
         gap: 1rem;
         border-radius: 8px;
-        height: 60vh;
+        height: 55vh;
         animation-name: latido2;
         animation-iteration-count: infinite;
         animation-duration: 2s;
@@ -2395,7 +2438,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;

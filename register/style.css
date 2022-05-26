@@ -115,7 +115,7 @@
         align-items: center;
         justify-content: center;
         width: 85%;
-        height: 40rem;
+       
         background: rgb(245, 245, 245);
         margin-top: -4rem;
         border-radius: 1rem;
@@ -130,7 +130,7 @@
         width: 95%;
         gap: 2rem;
         border-radius: 1rem;
-        margin-top: -3rem;
+        margin-top: 1rem;
 
     }
     h1 {
@@ -233,7 +233,7 @@
         background: var(--naranja);
         box-shadow: 2px 2px 2px 1px var(--negro);
         font-family: var(--font2);
-        color: var(--naranja);
+        
         font-size: 1.5rem;
         position: relative;
         cursor: pointer;
@@ -265,6 +265,7 @@
         box-shadow: 2px 2px 2px 1px var(--naranja);
         cursor: pointer;
         border: 1.5px solid var(--naranja);
+        color: var(--naranja);
     }
     .hero_BTN:hover::after, .hero_BTN:hover::before {
         width: calc(100% + 27px);
@@ -289,6 +290,14 @@
         width: 100%;
 
     }
+    .footer a {
+        color: black;
+        font-size: 1rem;
+    }
+    .footer h2 {
+        font-size: 1rem;
+    }
+    
      /* ---------------------------------- */
     
 
@@ -362,9 +371,177 @@
         justify-content: center;
         width: 95%;
         background: rgb(245, 245, 245);
-        margin-top: -4rem;
+        margin-top: -3rem;
+        border-radius: 1rem;
+        font-family: var(--font1);
+    }
+    .registro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(../imagenes/weightlifting-3901441_1920.jpg)no-repeat center center;
+        background-size: cover;
+        width: 95%;
+        gap: 2rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+
+    }
+    h1 {
+        font-size: 4rem;
+        color: var(--naranja);
+    }
+    .registro h2 {
+        color: var(--grisclaro);
+        font-size: 2rem;
+    }
+    .name {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+    }
+    .name input {
+        width: 20rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        caret-color: var(--naranja);
+        outline: none;
+        font-size: 1rem;
+        font-family: var(--font1);
+    }
+    .name input:focus {
+        border: solid 2px var(--amarillo);
+        color: var(--naranja);
+    }
+    .ageGender {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+    }
+    .ageGender input {
+        width: 10rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        color: var(--naranja);
+        text-align: center;
+        font-size: 1rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .ageGender select {
+        width: 10rem;
+        color: var(--naranja);
+        font-size: 1rem;
+        font-family: var(--font1);
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    
+    .mailPass {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+    }
+    .mailPass input {
+        width: 20rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        caret-color: var(--naranja);
+        outline: none;
+        font-size: 1rem;
+        font-family: var(--font1);
+    }
+    .mailPass input:focus {
+        border: solid 2px var(--amarillo);
+        color: var(--naranja);
+    }
+    .pago {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+        color: var(--grisclaro);
+      
+    }
+    .pago select {
+        width: 10rem;
+        color: var(--naranja);
+        font-size: 1rem;
+        font-family: var(--font1);
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .hero_BTN {
+        width: 16rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+        
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 3rem;
+    }
+    .hero_BTN::before, .hero_BTN::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN::before {
+        left: -15px;
+        top: -15px;
+        border-width: 1.5px 0 0 1.5px;
         border-radius: 1rem;
         
+    }
+    .hero_BTN::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+        border-radius: 1rem;
+    }
+    .hero_BTN:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 1.5px solid var(--naranja);
+        color: var(--naranja);
+    }
+    .hero_BTN:hover::after, .hero_BTN:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
+    }
+    .btnhero__link {
+        text-decoration: none;
+        color: var(--grisclaro);
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+    .footer a {
+        color: black;
+        font-size: 1rem;
+    }
+    .footer h2 {
+        font-size: 1rem;
     }
     
 }
@@ -501,16 +678,172 @@
         text-align: center;
     }
     /* ---------------------------------- */
+   
     .main {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 95%;
+       
         background: rgb(245, 245, 245);
-        margin-top: -4rem;
+        margin-top: -3rem;
+        border-radius: 1rem;
+        font-family: var(--font1);
+    }
+    .registro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(../imagenes/weightlifting-3901441_1920.jpg)no-repeat center center;
+        background-size: cover;
+        width: 95%;
+        gap: 2rem;
+        border-radius: 1rem;
+        margin-top:1rem;
+
+    }
+    h1 {
+        font-size: 4rem;
+        color: var(--naranja);
+    }
+    .registro h2 {
+        color: var(--grisclaro);
+        font-size: 2rem;
+    }
+    .name {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+    }
+    .name input {
+        width: 20rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        caret-color: var(--naranja);
+        outline: none;
+        font-size: 1rem;
+        font-family: var(--font1);
+    }
+    .name input:focus {
+        border: solid 2px var(--amarillo);
+        color: var(--naranja);
+    }
+    .ageGender {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 1rem;
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+    }
+    .ageGender input {
+        width: 8rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        color: var(--naranja);
+        text-align: center;
+        font-size: 1rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .ageGender select {
+        width: 8rem;
+        color: var(--naranja);
+        font-size: 1rem;
+        font-family: var(--font1);
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    
+    .mailPass {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+    }
+    .mailPass input {
+        width: 20rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        caret-color: var(--naranja);
+        outline: none;
+        font-size: 1rem;
+        font-family: var(--font1);
+    }
+    .mailPass input:focus {
+        border: solid 2px var(--amarillo);
+        color: var(--naranja);
+    }
+    .pago {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+        color: var(--grisclaro);
+      
+    }
+    .pago select {
+        width: 10rem;
+        color: var(--naranja);
+        font-size: 1rem;
+        font-family: var(--font1);
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .hero_BTN {
+        width: 16rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 3rem;
+    }
+    .hero_BTN::before, .hero_BTN::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN::before {
+        left: -15px;
+        top: -15px;
+        border-width: 1.5px 0 0 1.5px;
         border-radius: 1rem;
         
+    }
+    .hero_BTN::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+        border-radius: 1rem;
+    }
+    .hero_BTN:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 1.5px solid var(--naranja);
+    }
+    .hero_BTN:hover::after, .hero_BTN:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
+    }
+    .btnhero__link {
+        text-decoration: none;
+        color: var(--grisclaro);
     }
     
 
@@ -521,6 +854,13 @@
         justify-content: space-around;
         width: 100%;
 
+    }
+    .footer a {
+        color: black;
+        font-size: 1rem;
+    }
+    .footer h2 {
+        font-size: 1rem;
     }
      /* ---------------------------------- */
 
@@ -666,11 +1006,178 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 92%;
+        width: 95%;
         background: rgb(245, 245, 245);
-        margin-top: -4rem;
+        margin-top: -3rem;
+        border-radius: 1rem;
+        font-family: var(--font1);
+    }
+    .registro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(../imagenes/weightlifting-3901441_1920.jpg)no-repeat center center;
+        background-size: cover;
+        width: 95%;
+        gap: 2rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+
+    }
+    h1 {
+        font-size: 2rem;
+        color: var(--naranja);
+    }
+    .registro h2 {
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 1rem;
+    }
+    .name input {
+        width: 18rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        caret-color: var(--naranja);
+        outline: none;
+        font-size: 1rem;
+        font-family: var(--font1);
+    }
+    .name input:focus {
+        border: solid 2px var(--amarillo);
+        color: var(--naranja);
+    }
+   
+    .ageGender {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 1rem;
+        color: var(--grisclaro);
+        font-size: 1.2rem;
+    }
+    .ageGender input {
+        width: 8rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        color: var(--naranja);
+        text-align: center;
+        font-size: 1rem;
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .ageGender select {
+        width: 8rem;
+        color: var(--naranja);
+        font-size: 0.8rem;
+        font-family: var(--font1);
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    
+    .mailPass {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+    }
+    .mailPass input {
+        width: 18rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        caret-color: var(--naranja);
+        outline: none;
+        font-size: 1rem;
+        font-family: var(--font1);
+    }
+    .mailPass input:focus {
+        border: solid 2px var(--amarillo);
+        color: var(--naranja);
+    }
+    .pago {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        gap: 1rem;
+        color: var(--grisclaro);
+      
+    }
+    .pago select {
+        width: 9rem;
+        color: var(--naranja);
+        font-size: 1rem;
+        font-family: var(--font1);
+        caret-color: var(--naranja);
+        outline: none;
+    }
+    .registro label {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .hero_BTN {
+        width: 16rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: 1px solid var(--negro);
+        background: var(--naranja);
+        box-shadow: 2px 2px 2px 1px var(--negro);
+        font-family: var(--font2);
+
+        font-size: 1.5rem;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 3rem;
+    }
+    .hero_BTN::before, .hero_BTN::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: inherit;
+        transition: all ease 0.3s;
+    }
+    .hero_BTN::before {
+        left: -15px;
+        top: -15px;
+        border-width: 1.5px 0 0 1.5px;
         border-radius: 1rem;
         
+    }
+    .hero_BTN::after {
+        right: -15px;
+        bottom: -15px;
+        border-width: 0 3px 3px 0;
+        border-radius: 1rem;
+    }
+    .hero_BTN:hover {
+        background: var(--negro);
+        box-shadow: 2px 2px 2px 1px var(--naranja);
+        cursor: pointer;
+        border: 1.5px solid var(--naranja);
+    }
+    .hero_BTN:hover::after, .hero_BTN:hover::before {
+        width: calc(100% + 27px);
+        height: calc(100% + 27px);
+    }
+    .btnhero__link {
+        text-decoration: none;
+        color: var(--grisclaro);
     }
       /* --------------footer-------------------- */
       .footer {
@@ -678,7 +1185,15 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
+       
 
+    }
+    .footer a {
+        color: black;
+        font-size: 1rem;
+    }
+    .footer h2 {
+        font-size: 1rem;
     }
      /* ---------------------------------- */
 
